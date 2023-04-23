@@ -19,11 +19,11 @@ def main(mytimer: func.TimerRequest) -> None:
                         level= logging.INFO)
 
     # Create a Twilio account to get these secrets
-    TWILLIO_ACCOUNT_SID = os.environ.get('TWILLIO-ACCOUNT-SID')
-    TWILLIO_AUTH_TOKEN = os.environ.get('TWILLIO-AUTH-TOKEN')
-    TWILLIO_MOBILE_NUMBER = os.environ.get('TWILLIO-MOBIL-NUMBER')
+    TWILLIO_ACCOUNT_SID = os.environ.get('Twillio-ACCOUNT-SID')
+    TWILLIO_AUTH_TOKEN = os.environ.get('Twillio-AUTH-TOKEN')
+    TWILLIO_MOBILE_NUMBER = os.environ.get('Twillio-MOBIL-NUMBER')
     API_OPENWEATHER_KEY = os.environ.get('OW-API')
-    YOUR_MOBIL_NUMBER = os.environ.get('YOUR-MOBIL-NUMBER')
+    YOUR_MOBIL_NUMBER = os.environ.get('NOTIFICATION-MOBILE-NUMBER')
 
     
 
